@@ -73,7 +73,7 @@ function modules() {
 // CSS task
 function css() {
   return gulp
-    .src("./scss/**/*.scss")
+    .src("./assets/scss/**/*.scss")
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",
@@ -86,12 +86,12 @@ function css() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest("./assets/css"))
     .pipe(rename({
       suffix: ".min"
     }))
     .pipe(cleanCSS())
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest("./assets/css"))
     .pipe(browsersync.stream());
 }
 
@@ -99,10 +99,10 @@ function css() {
 function js() {
   return gulp
     .src([
-      './js/*.js',
-      '!./js/*.min.js',
-      '!./js/contact_me.js',
-      '!./js/jqBootstrapValidation.js'
+      './assets/js/*.js',
+      '!./assets/js/*.min.js',
+      '!./assets/js/contact_me.js',
+      '!./assets/js/jqBootstrapValidation.js'
     ])
     .pipe(uglify())
     .pipe(header(banner, {
@@ -111,14 +111,14 @@ function js() {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./js'))
+    .pipe(gulp.dest('./assets/js'))
     .pipe(browsersync.stream());
 }
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
-  gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
+  gulp.watch("./assets/scss/**/*", css);
+  gulp.watch(["./assets/js/**/*", "!./js/**/*.min.js"], js);
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
