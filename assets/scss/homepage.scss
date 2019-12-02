@@ -1,0 +1,13 @@
+/////////
+//bundle.css needs to be imported into every custome .scss file
+//as it is the standard global theme to this project
+/////////
+@import "bundle.scss";
+// Layout
+@import "homepage/masthead.scss";
+@import "homepage/services.scss";
+@import "homepage/portfolio.scss";
+@import "homepage/timeline.scss";
+@import "homepage/team.scss";
+@import "homepage/contact.scss";
+@import "homepage/footer.scss";
