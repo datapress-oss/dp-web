@@ -59,7 +59,7 @@ dp-web
 │   license.md   
 │   yarn.lock
 │   package.json
-│	  gulpfile.js
+│	gulpfile.js
 │   index.html
 │   CONTRIBUTING.md
 │
