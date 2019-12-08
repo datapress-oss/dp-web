@@ -34,7 +34,7 @@ Indító parancs: ```yarn run start```
 
 ## Git 
 
-A [git workflow:](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow) **centalizált**, tehát csak egy branch van, a **master** branch és mindenki ide commit-olja a változtatásait a lokális repository-ban, majd azokat feltölti az origin/master-ba.
+A [git workflow:](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow) **centralizált**, tehát csak egy branch van, a **master** branch és mindenki ide commit-olja a változtatásait a lokális repository-ban, majd azokat feltölti az origin/master-ba.
 
 #### Commit
 Ez a repository [Commitizen](https://yarnpkg.com/en/package/commitizen) friendly, tehát minden commit-ot a ```yarn git-cz``` paranccsal kell futtatni.<br><br>
