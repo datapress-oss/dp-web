@@ -1,3 +1,5 @@
+vendor/
 node_modules/
 .sass-cache/
 *.css.map
+CONTRIBUTING.md.backup
