@@ -20,8 +20,7 @@
     "jquery.easing": "^1.4.1",
     "merge-stream": "^2.0.0",
     "popper.js": "^1.16.0",
-    "sass": "^1.23.7",
-    "yarn": "^1.19.2"
+    "sass": "^1.23.7"
   },
   "config": {
     "commitizen": {

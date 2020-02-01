@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap -  v ()
- * Copyright 2013-2019 Levente Varga
+ * Copyright 2013-2020 Levente Varga
  * Licensed under  (https://github.com/BlackrockDigital//blob/master/LICENSE)
  */
 
