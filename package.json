@@ -19,8 +19,9 @@
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "merge-stream": "^2.0.0",
-    "popper.js": "^1.16.0",
-    "sass": "^1.23.7"
+    "popper.js": "^1.16.1",
+    "sass": "^1.23.7",
+    "vendor": "^1.7.0"
   },
   "config": {
     "commitizen": {
@@ -28,12 +29,14 @@
     }
   },
   "scripts": {
-    "start": "node_modules/.bin/gulp watch"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.0.9",
+    "parcel-bundler": "^1.12.4",
     "validate-commit-msg": "^2.14.0"
   },
   "husky": {

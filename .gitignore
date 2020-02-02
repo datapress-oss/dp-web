@@ -3,6 +3,8 @@ node_modules/
 .sass-cache/
 *.css.map
 CONTRIBUTING.md.backup
+.cache/
+dist/
 
 # Optional npm cache directory
 .npm
