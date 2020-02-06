@@ -8,8 +8,8 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css' // Import precompiled Bootstrap css
 
 //import custome designs
-import './assets/scss/bundle.scss'
-import './assets/scss/homepage.scss'
+import './../scss/bundle.scss'
+import './../scss/homepage.scss'
 
 //import FontAwesome icon-pack
 import '@fortawesome/fontawesome-free/css/all.css'
