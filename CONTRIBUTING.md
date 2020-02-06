@@ -1,6 +1,7 @@
 # Contributing
 
 + [Tennivalók elkezdés előtt](#prestart)
++ [Build](#build)
 + [Git](#git)
 
 <a name="prestart"></a>
@@ -26,8 +27,15 @@ A repository klónozása után telepíteni kell a *package.json* file-ban talál
 
 ### Project indítása
 
-Mikor el akarunk kezdeni dolgozni a projecten, azt el kell indítanunk, hogy a helyi web szerver és a *gulpfile.js*-ben meghatározott automatizált feladatok, PL: scss fordítása css-be stb... fussanak le minden mentés után és ne kelljen egyesével azokat mindig elvégezni.<br>
-Indító parancs: ```npm run start```
+Mikor el akarunk kezdeni dolgozni a projecten, el kell indítanunk egy dev session-t, amiben a *Parcel* module bundler automatikusan létrehoz egy helyi web server-t, ami tartalmazza a live-reload modult és automatikusan lefordítja az összes .scss és .js file-okat egyetlen önálló file-ba.<br>
+Indító parancs: ```npm run dev```
+
+<a name="build"></a>
+
+## Build
+
+Ahhoz, hogy a project publikálható módba legyen, amit különálló web server-en is lehet majd futtatni, le kell azt build-elnünk. A *Parcel* egy paranccsal minden ehhez szükséges folyamatot elvégez PL.: .scss és .js fordítása, minification. <br>
+Eddig az *src* mappában dolgoztunk, viszont a ```npm run build``` futtatásával egy teljesen kész verziót kapunk az ekkor létrehozott *dist* mappába, amit egy jól konfigurált szerveren már lehet is használni.
 
 <a name="git"></a>
 
