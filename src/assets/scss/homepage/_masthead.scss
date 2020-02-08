@@ -8,41 +8,41 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 9.375rem;
+    padding-bottom: 6.25rem;
     .intro-lead-in {
-      font-size: 22px;
+      font-size: 1rem;
       font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
+      line-height: 1.2rem;
+      margin-bottom: 1.5rem;
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 3rem;
+      margin-bottom: 1.5rem;
       @include heading-font;
     }
   }
 }
-@media(min-width:768px) {
+@media(min-width:48rem) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 18.5rem;
+      padding-bottom: 12.4rem;
       .intro-lead-in {
-        font-size: 40px;
+        font-size: 2rem;
         font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
+        line-height: 2.2rem;
+        margin-bottom: 1.5rem;
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
+        font-size: 4.4rem;
+        font-weight: 600;
+        line-height: 4.5rem;
+        margin-bottom: 3.1rem;
         @include heading-font;
       }
     }
