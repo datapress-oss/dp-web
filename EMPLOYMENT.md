@@ -26,4 +26,4 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 
 | Hét 2020-ban | Eltöltött idő (percben) | Tárgy                        |
 | -----------: | ----------------------: | :--------------------------- |
-|           6. |                       0 | Dokumentálás, projektvezetés |
+|           6. |                     510 | Dokumentálás, projektvezetés |
