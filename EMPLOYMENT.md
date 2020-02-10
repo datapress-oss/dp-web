@@ -8,7 +8,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 
 | Hét 2020-ban | Eltöltött idő (percben) | Tárgy                                                                                  |
 | -----------: | ----------------------: | :------------------------------------------------------------------------------------- |
-|           6. |                       0 | Ötletelés az érkező oldal kinézetéről: <br> - színek <br> - betűméret <br> - egyebek ? |
+|           6. |                     180 | Ötletelés az érkező oldal kinézetéről: <br> - színek <br> - betűméret <br> - egyebek ? |
 
 ## István
 
