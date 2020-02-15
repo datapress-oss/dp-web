@@ -1,38 +1,21 @@
-//bode mailer
+var path = require('path')
+var express = require('express')
+var bodyParser = require('body-parser')
+var app = express()
 
+// create application/json parser
+// var jsonParser = bodyParser.json()
 
+// create application/x-www-form-urlencoded parser
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
+app.use(express.static(path.join(__dirname, './../client')))
 
-async function main() {
-  
-  let nodemailer = require('nodemailer');
-  let testAccount = await nodemailer.createTestAccount();
+// gets the POST req
+app.post('/email', urlencodedParser, (req, res) => {
+  console.log(req.body.username)
+  console.log(req.body.password)
+  res.send('success')
+})
 
- 
-  let transporter = nodemailer.createTransport({
-    host: "smtp.ethereal.email",
-    port: 587,
-    secure: false, 
-    auth: {
-      user: testAccount.user, 
-      pass: testAccount.pass 
-    }
-  });
-
- 
-  let info = await transporter.sendMail({
-    from: '"Fred Foo " <foo@example.com>', 
-    to: "bar@example.com, baz@example.com", 
-    subject: "Hello ✔",
-    text: "MEEEEEEEEEEEEEEGY!!!!", 
-    html: "<b>MEEEEEEEEEEEEEEGY!!!!</b>"
-  });
-
-  console.log("Message sent: %s", info.messageId);
-
-
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-
-}
-
-main().catch(console.error);
+app.listen(5000)
