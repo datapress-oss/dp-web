@@ -3,9 +3,11 @@
   "author": "Levente Varga",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "expressjs": "^1.0.1",
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "nodemailer": "^6.4.2",
+    "nodemon": "^2.0.2",
     "popper.js": "^1.16.1",
     "sass": "^1.23.7"
   },
@@ -15,8 +17,8 @@
     }
   },
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/client/index.html",
+    "build": "parcel build src/client/index.html"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
