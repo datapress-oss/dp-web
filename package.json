@@ -3,7 +3,7 @@
   "author": "Levente Varga",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "expressjs": "^1.0.1",
+    "express": "^4.17.1",
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "nodemailer": "^6.4.2",
