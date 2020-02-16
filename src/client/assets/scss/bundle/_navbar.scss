@@ -2,9 +2,9 @@
 #mainNav {
   background-color: $gray-900;
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 0.75rem;
     right: 0;
-    padding: 13px;
+    padding: 0.815rem;
     text-transform: uppercase;
     color: white;
     border: 0;
@@ -12,13 +12,13 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary;
+    color: $secondary;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($secondary, 10%);
+      color: darken($tertiarty, 10%);
     }
   }
   .navbar-nav {
@@ -28,11 +28,11 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
+        color: $secondary;
         @include heading-font;
         &.active,
         &:hover {
-          color: $secondary;
+          color: $tertiarty;
         }
       }
     }
