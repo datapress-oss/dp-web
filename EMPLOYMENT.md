@@ -26,7 +26,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 | -----------: | ----------------------: | :---------------------- |
 |           6. |                     420 | Form kezelés NodeJs-ben |
 |              |                         |                         |
-|           7. |                         |                         |
+|           7. |                     740 |                         |
 
 ## Balázs
 
