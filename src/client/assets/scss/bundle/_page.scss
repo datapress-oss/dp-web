@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   @include body-font;
+  background-color: $white;
 }
 
 p {
@@ -29,12 +30,14 @@ h6 {
   @include heading-font;
 }
 
+
 .page-section {
   padding: 6.25rem 0;
   h2.section-heading {
     font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
+    color: $white;
   }
   h3.section-subheading {
     font-size: 0.8rem;
@@ -72,4 +75,4 @@ img::-moz-selection {
 
 html {
  scroll-behavior: smooth;
-}
+ }
