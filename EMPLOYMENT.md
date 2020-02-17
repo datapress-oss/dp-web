@@ -10,7 +10,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 | -----------: | ----------------------: | :------------------------------------------------------------------------------------- |
 |           6. |                     180 | Ötletelés az érkező oldal kinézetéről: <br> - színek <br> - betűméret <br> - egyebek ? |
 |              |                         |                         |
-|           7. |                         |                         |
+|           7. |                     200 |                         |
 
 ## István
 
