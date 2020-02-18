@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "parcel src/client/index.html",
     "build": "parcel build src/client/index.html",
-    "devserver": "nodemon index.js"
+    "devserver": "parcel build src/client/index.html && nodemon src/server/server.js"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
