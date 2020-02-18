@@ -16,9 +16,9 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 
 | Hét 2020-ban | Eltöltött idő (percben) | Tárgy           |
 | -----------: | ----------------------: | :-------------- |
-|           6. |                       0 | Tartalom átírás |
+|           6. |                   120   | Tartalom átírás |
 |              |                         |                 |
-|           7. |                         |                 |
+|           7. |                    160  | Tartalom szerkeztése és gombok hozzáadása                    |
 
 ## Krisztián
 
