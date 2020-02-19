@@ -16,7 +16,7 @@ app.use(express.static(clientDir))
 
 // handles the POST req
 app.post('/email', urlencodedParser, (req, res) => {
-  const mail = new Email(req.body.name, req.body.email,req.body.phone,req.body.message)
+  const mail = new Email(req.body.name, req.body.email, req.body.phone, req.body.message)
   mail.SendMail()
   // redirect back to page
   res.sendFile(path.join(clientDir, 'index.html'))
