@@ -10,14 +10,14 @@ p {
 }
 
 a {
-  color: $secondary;
+  color: $dp;
   &:hover {
-    color: darken($secondary, 10%);
+    color: darken($dp, 10%);
   }
 }
 
 .text-primary {
-  color: $secondary !important;
+  color: $dp !important;
 }
 
 h1,
@@ -56,12 +56,12 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $secondary;
+  background: $dp;
   text-shadow: none;
 }
 
 ::selection {
-  background: $secondary;
+  background: $dp;
   text-shadow: none;
 }
 
