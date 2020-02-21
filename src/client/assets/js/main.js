@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css' // Import precompiled Bootstrap cs
 // import custome designs
 import './../scss/bundle.scss'
 import './../scss/homepage.scss'
-// darkTheme can only be set manually here for now, delete comment below to activate it
+// darkTheme
 import Darkmode from 'darkmode-js';
 var options = {
     bottom: '64px', // default: '32px'

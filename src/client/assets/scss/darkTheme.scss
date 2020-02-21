@@ -3,50 +3,29 @@
 body{
 
     background-color: black;
-    color: $white;
 }
 header.masthead{
-    background-image: url('../img/header-bg-dark.jpg');
+    background-image: url('../img/header-bg.jpg');
 }
-#mainNav{
-    .navbar-brand{
-        color: $white;
-        &:hover{
-            color: darken($white, 10%)
-        }
-    }
-    .navbar-nav {
-        .nav-item {
-          .nav-link {
-            color: $white;
-            &:hover {
-              color: darken($white, 10%);
-            }
-          }
-        }
-    }
-}
-.btn-primary {
-    background-color: $white;
-    border-color: $white;
-    color:black;
-    &:hover {
-      background-color: darken($white, 7.5%) !important;
-      border-color: darken($white, 7.5%) !important;
-      color: black;
-    }
-    &:focus {
-      box-shadow: 0 0 0 0.2rem $black(254, 209, 55,.5) !important;
-    }
-  }
 
-  .page-section{
+.page-section{
     h2.section-heading {
-        color: $white;
+        color: $black;
       }
-  }
+  } 
 
-  section#contact
-  {
-    background-color: $gray-900;
+  .btn-main {
+    background-color: $dp;
+    border-color: $dp;
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: darken($dp, 7.5%) !important;
+      border-color: darken($dp, 7.5%) !important;
+      color: white;
+    }
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 0.2rem $primary(254, 209, 55,.5) !important;
   }
+}

@@ -8,17 +8,17 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $secondary;
+    background-color: $dp;
     @include heading-font;
   }
   .navbar-brand {
-    color: $secondary;
+    color: $dp;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($tertiarty, 10%);
+      color: darken($dp, 20%);
     }
   }
   .navbar-nav {
@@ -28,11 +28,12 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: $secondary;
+        color: $dp;
         @include heading-font;
         &.active,
         &:hover {
-          color: $tertiarty;
+          color: darken($dp, 20%);
+
         }
       }
     }
