@@ -1,6 +1,7 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
+  height: 11%;
   .navbar-toggler {
     font-size: 0.75rem;
     right: 0;
@@ -25,7 +26,7 @@
     .nav-item {
       .nav-link {
         font-size: 90%;
-        font-weight: 400;
+        font-weight: bold;
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: $dp;
@@ -47,7 +48,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: rgba($black,0.35);
+    background-color: rgba($black,0.45);
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
