@@ -27,6 +27,15 @@ header.masthead {
     }
   }
 }
+
+#header-bg {
+  background-color: rgba(3, 3, 3, 0.602);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
 @media(min-width:48rem) {
   header.masthead {
     .intro-text {

@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
-  height: 11%;
+  height: 10%;
   .navbar-toggler {
     font-size: 0.75rem;
     right: 0;
@@ -58,7 +58,7 @@
     .navbar-nav {
       .nav-item {
         .nav-link {
-          padding: 1.1em 1em !important;
+          padding: 1.1em;
         }
       }
     }
