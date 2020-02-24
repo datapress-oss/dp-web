@@ -40,6 +40,6 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 | -----------: | ----------------------: | :--------------------------- |
 |           6. |                     510 | Dokumentálás, projektvezetés |
 |              |                         |                              |
-|           7. |                     810 |                              |
+|           7. |                     810 | Dokumentálás <br> Segítség Krisztiánnak form és Email összekapcsolásában  |
 |              |                         |                              |
-|           8. |                     400 |                              |
+|           8. |                     400 | Dokumentálás <br> Segítség Istvánnak és Csabinak a Dark-mode elkészítésében |
