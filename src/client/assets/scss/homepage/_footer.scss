@@ -37,7 +37,7 @@ ul.social-buttons {
       &:active,
       &:focus,
       &:hover {
-        background-color: $primary;
+        background-color: darken($dp, 15%);
       }
     }
   }

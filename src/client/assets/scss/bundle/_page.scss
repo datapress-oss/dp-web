@@ -29,6 +29,14 @@ h6 {
   @include heading-font;
 }
 
+h4{
+  color: $dp !important;
+}
+
+.text-muted{
+  color: $dp !important;
+}
+
 
 .page-section {
   padding: 6.25rem 0;
