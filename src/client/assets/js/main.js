@@ -12,7 +12,6 @@ import './../scss/bundle.scss'
 import './../scss/homepage.scss'
 // darkTheme
 import Darkmode from 'darkmode-js'
-import './../scss/darkTheme.scss'
 // import FontAwesome icon-pack
 import '@fortawesome/fontawesome-free/css/all.css'
 var options = {

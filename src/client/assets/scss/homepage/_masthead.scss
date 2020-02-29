@@ -4,8 +4,8 @@ header.masthead {
   color: $dp;
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   isolation: isolate;
   .intro-text {

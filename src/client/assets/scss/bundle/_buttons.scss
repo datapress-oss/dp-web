@@ -11,13 +11,13 @@
 
 .btn-primary {
   margin-top: 0.7rem;
-  background-color: $secondary;
-  border-color: $secondary;
+  background-color: $dp;
+  border-color: $dp;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($secondary, 7.5%) !important;
-    border-color: darken($secondary, 7.5%) !important;
+    background-color: darken($dp, 10%) !important;
+    border-color: darken($dp, 10%) !important;
     color: white;
   }
   &:active,

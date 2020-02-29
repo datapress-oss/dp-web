@@ -2,7 +2,6 @@
 body {
   overflow-x: hidden;
   @include body-font;
-  background-color: $white;
 }
 
 p {
@@ -37,7 +36,7 @@ h6 {
     font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
-    color: $white;
+    color: $dp;
   }
   h3.section-subheading {
     font-size: 0.8rem;
@@ -46,6 +45,7 @@ h6 {
     margin-bottom: 4.8rem;
     text-transform: none;
     @include serif-font;
+    color: $dp
   }
 }
 @media(min-width:48rem) {
@@ -75,4 +75,8 @@ img::-moz-selection {
 
 html {
  scroll-behavior: smooth;
+ }
+ 
+ .darkmode-toggle{
+    z-index: 999;
  }
