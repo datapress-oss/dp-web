@@ -13,6 +13,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |           7. |                     200 | Dark theme készítése                        |
 |              |                         |                         |
 |           8. |                     120 | Stílus szerkesztése <br> Dark theme javítások                      |
+|              |                         |                         |
+|           9. |                         |                         |
 
 ## István
 
@@ -23,6 +25,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |           7. |                    160  | Tartalom szerkeztése és gombok hozzáadása                    |
 |              |                         |                              |
 |           8. |                         |                              |
+|              |                         |                         |
+|           9. |                         |                         |
 
 ## Krisztián
 
@@ -33,6 +37,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |           7. |                     740 |                         |
 |              |                         |                         |
 |           8. |                         |                         |
+|              |                         |                         |
+|           9. |                         |                         |
 
 ## Balázs
 
@@ -43,3 +49,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |           7. |                     810 | Dokumentálás <br> Segítség Krisztiánnak form és Email összekapcsolásában  |
 |              |                         |                              |
 |           8. |                     400 | Dokumentálás <br> Segítség Istvánnak és Csabinak a Dark-mode elkészítésében |
+|              |                         |                         |
+|           9. |                     240 | Dokumentálás <br> Ötletelés Csabival a design-on (főleg dark-theme) <br> bug-ok keresése <br> - Következő nagyobb cél: az oldal mobilra való optimalizálása |
