@@ -30,15 +30,15 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 
 ## Krisztián
 
-| Hét 2020-ban | Eltöltött idő (percben) | Tárgy                   |
-| -----------: | ----------------------: | :---------------------- |
-|           6. |                     420 | Form kezelés NodeJs-ben |
-|              |                         |                         |
-|           7. |                     740 |                         |
-|              |                         |                         |
-|           8. |                         |                         |
-|              |                         |                         |
-|           9. |                         |                         |
+| Hét 2020-ban | Eltöltött idő (percben) | Tárgy                               |
+| -----------: | ----------------------: | :----------------------             |
+|           6. |                     420 | Form kezelés NodeJs-ben             |
+|              |                         |                                     |
+|           7. |                     740 | Form és Email összekapcsolásában    |
+|              |                         |                                     |
+|           8. |                     100 | Bug-ok keresése                     |
+|              |                         |                                     |
+|           9. |                     60  | Bug-ok keresése                     |
 
 ## Balázs
 
