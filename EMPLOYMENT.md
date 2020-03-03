@@ -14,7 +14,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                         |
 |           8. |                     120 | Stílus szerkesztése <br> Dark theme javítások                      |
 |              |                         |                         |
-|           9. |                         |                         |
+|           9. |                     100 | Mostani téma finalizálása <br> Dark theme bugok javítása                        |
 
 ## István
 
