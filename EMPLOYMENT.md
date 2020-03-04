@@ -24,9 +24,9 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                 |
 |           7. |                    160  | Tartalom szerkeztése és gombok hozzáadása                    |
 |              |                         |                              |
-|           8. |                         |                              |
+|           8. |                     120 |   Tartalom szerkesztése dark mode importálása/widgetek keresése                           |
 |              |                         |                         |
-|           9. |                         |                         |
+|           9. |                   100   |     Portfolio szerkesztése linkek hozzáadása a weboldalhoz                    |
 
 ## Krisztián
 
