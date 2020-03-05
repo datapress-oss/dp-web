@@ -8,7 +8,6 @@
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "nodemailer": "^6.4.2",
-    "nodemon": "^2.0.2",
     "popper.js": "^1.16.1"
   },
   "config": {
@@ -25,6 +24,7 @@
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.0.9",
+    "nodemon": "^2.0.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.25.0",
     "validate-commit-msg": "^2.14.0"
