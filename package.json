@@ -5,7 +5,6 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
-    "darkmode-js": "^1.5.5",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "nodemailer": "^6.4.2",
