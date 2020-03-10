@@ -43,8 +43,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |           8. |                     100 | Bug-ok keresése                     |
 |              |                         |                                     |
 |           9. |                     60  | Bug-ok keresése                     |
-|              |                         |                         |
-|          10. |                         |                         |
+|              |                         |                                     |
+|          10. |                     100 | dark theme switch tervezés/ utánanézése  |
 
 ## Balázs
 
