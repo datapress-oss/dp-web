@@ -16,7 +16,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                         |
 |           9. |                     100 | Mostani téma finalizálása <br> Dark theme bugok javítása                        |
 |              |                         |                         |
-|          10. |                         |                         |
+|          10. |                     100 | Design ötletelés Balázzsal                        |
 
 ## István
 
