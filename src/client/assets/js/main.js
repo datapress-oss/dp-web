@@ -1,11 +1,9 @@
 // This is the entry file, where all npm modules are imported
 
-// Jquery itself needs to be imported in a separate js file
-import './import-jquery.js'
-
-// import bootstrap
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css' // Import precompiled Bootstrap css
+// import bootstrap javascript bundle (bootstrap.js, jQuary, popper.js)
+import 'bootstrap/dist/js/bootstrap.bundle'
+// Import precompiled Bootstrap css
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // import custome designs
 import './../scss/bundle.scss'
