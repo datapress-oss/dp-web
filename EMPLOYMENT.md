@@ -50,7 +50,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          10. |                     100 | dark theme switch tervezés/ utánanézése  |
 |              |                         |                                     |
-|          11. |                         |                                     |
+|          11. |                     210 | Test dark theme switch              |
 
 
 ## Balázs
