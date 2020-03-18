@@ -6,3 +6,13 @@
   border-style: solid;
   border-color: #EB5757;
 }
+
+#services {
+  height: auto;
+}
+
+@media(min-width:768px) {
+  #services {
+    height: 100%;
+  }
+}

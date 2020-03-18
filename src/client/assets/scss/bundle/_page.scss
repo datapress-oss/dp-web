@@ -41,7 +41,7 @@ h4{
 .page-section {
   padding: 6.25rem 0;
   h2.section-heading {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
     color: $dp;
@@ -56,9 +56,14 @@ h4{
     color: $dp
   }
 }
-@media(min-width:48rem) {
+@media(min-width:768px) {
   section {
     padding: 9.3rem 0;
+  }
+  .page-section {
+    h2.section-heading {
+      font-size: 2.5rem;
+    }
   }
 }
 
@@ -83,4 +88,8 @@ img::-moz-selection {
 
 html {
  scroll-behavior: smooth;
+ }
+
+ .svg-h-100 {
+   height: 100%;
  }
