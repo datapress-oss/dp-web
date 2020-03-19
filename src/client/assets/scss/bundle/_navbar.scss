@@ -28,7 +28,8 @@
         font-weight: bold;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: black;
+        color: white;
+        background-color: #424242;
         @include heading-font;
         &.active,
         &:hover {
