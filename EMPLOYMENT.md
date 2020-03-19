@@ -18,7 +18,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                         |
 |          10. |                     100 | Design ötletelés Balázzsal                        |
 |              |                         |                                     |
-|          11. |                         |                                     |
+|          11. |                     120 | Új Dark Theme létrehozása, <br> egyéb vizuális változtatások                                     |
 
 ## István
 
