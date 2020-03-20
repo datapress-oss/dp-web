@@ -30,7 +30,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                         |
 |           9. |                   100   |     Portfolio szerkesztése linkek hozzáadása a weboldalhoz                    |
 |              |                         |                         |
-|          10. |                         |                         |
+|          10. |                   200   | Gridek implementálása,tartalom szerkesztése                        |
 
 ## Krisztián
 
