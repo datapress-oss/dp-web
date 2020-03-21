@@ -1,145 +1,145 @@
 // Dark Portfolio
+
 #portfolio-dark {
-    .portfolio-dark-item {
-      right: 0;
-      margin: 0 0 15px;
-      .portfolio-dark-link {
-        position: relative;
-        display: block;
-        max-width: 400px;
-        margin: 0 auto;
-        cursor: pointer;
-        .portfolio-dark-hover {
+  .portfolio-item-dark {
+    right: 0;
+    margin: 0 0 15px;
+    .portfolio-link-dark {
+      position: relative;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer;
+      .portfolio-hover-dark {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+        opacity: 0;
+        background: fade-out($dp, .1);
+        &:hover {
+          opacity: 1;
+        }
+        .portfolio-hover-content-dark {
+          font-size: 5rem;
           position: absolute;
+          top: 35%;
           width: 100%;
-          height: 100%;
-          -webkit-transition: all ease 0.5s;
-          -moz-transition: all ease 0.5s;
-          transition: all ease 0.5s;
-          opacity: 0;
-          background: fade-out($dp, .1);
-          &:hover {
-            opacity: 1;
-          }
-          .portfolio-dark-hover-content {
-            font-size: 20px;
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            height: 20px;
+          height: 20px;
+          margin-top: -12px;
+          text-align: center;
+          color: #C4DBF6;
+          i {
             margin-top: -12px;
-            text-align: center;
-            color: $tertiarty-gray;
-            i {
-              margin-top: -12px;
-            }
-            h3,
-            h4 {
-              margin: 0;
-            }
+          }
+          h3,
+          h4 {
+            margin: 0;
           }
         }
       }
-      .portfolio-dark-caption {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 25px;
-        text-align: center;
-        background-color: $tertiarty-gray;
-        h4 {
-          margin: 0;
-          text-transform: none;
-        }
-        p {
-          font-size: 16px;
-          font-style: italic;
-          margin: 0;
-          @include serif-font;
-        }
-      }
     }
-    * {
-      z-index: 2;
-    }
-  }
-  @media(min-width:767px) {
-    #portfolio-dark {
-      .portfolio-dark-item {
-        margin: 0 0 30px;
-      }
-    }
-  }
-  
-  .portfolio-dark-modal {
-    .modal-dialog {
-      margin: 1rem;
-      max-width: 100vw;
-    }
-    .modal-content {
-      background-color: $secondary-gray;
-      color: white;
-      padding: 100px 0;
+    .portfolio-caption-dark {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 25px;
       text-align: center;
-      h2 {
-        font-size: 3em;
-        margin-bottom: 15px;
+      background-color: #C4DBF6;
+      h4 {
+        margin: 0;
+        text-transform: none;
       }
       p {
-        margin-bottom: 30px;
-      }
-      p.item-intro {
         font-size: 16px;
         font-style: italic;
-        margin: 20px 0 30px;
+        margin: 0;
         @include serif-font;
-      }
-      ul.list-inline {
-        margin-top: 0;
-        margin-bottom: 30px;
-      }
-      img {
-        margin-bottom: 30px;
-      }
-      button {
-        cursor: pointer;
-      }
-    }
-    .close-modal {
-      position: absolute;
-      top: 25px;
-      right: 25px;
-      width: 75px;
-      height: 75px;
-      cursor: pointer;
-      background-color: transparent;
-      &:hover {
-        opacity: 0.3;
-      }
-      .lr {
-        /* Safari and Chrome */
-        z-index: 1051;
-        width: 1px;
-        height: 75px;
-        margin-left: 35px;
-        /* IE 9 */
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        background-color: $dp;
-        .rl {
-          /* Safari and Chrome */
-          z-index: 1052;
-          width: 1px;
-          height: 75px;
-          /* IE 9 */
-          -webkit-transform: rotate(90deg);
-          -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-          background-color: $dp;
-        }
       }
     }
   }
+  * {
+    z-index: 2;
+  }
+}
+@media(min-width:767px) {
+  #portfolio-dark {
+    .portfolio-item-dark {
+      margin: 0 0 30px;
+    }
+  }
+}
+
+.portfolio-modal-dark {
+  .modal-dialog-dark {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+  .modal-content-dark {
+    padding: 100px 0;
+    text-align: center;
+    h2 {
+      font-size: 3em;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    p.item-intro {
+      font-size: 16px;
+      font-style: italic;
+      margin: 20px 0 30px;
+      @include serif-font;
+    }
+    ul.list-inline {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    img {
+      margin-bottom: 30px;
+    }
+    button {
+      cursor: pointer;
+    }
+  }
+  .close-modal-dark {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+    &:hover {
+      opacity: 0.3;
+    }
+    .lr {
+      /* Safari and Chrome */
+      z-index: 1051;
+      width: 1px;
+      height: 75px;
+      margin-left: 35px;
+      /* IE 9 */
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      background-color: $dp;
+      .rl {
+        /* Safari and Chrome */
+        z-index: 1052;
+        width: 1px;
+        height: 75px;
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        background-color: $dp;
+      }
+    }
+  }
+}
+
 
   .bg-dark{
       background-color: $primary-gray !important;
@@ -153,12 +153,22 @@
     padding: 1rem;
     border-style: solid;
     border-color: #EB5757;
-    color: white;
+    color:white;
+  }
+  
+  #services-dark {
+    height: auto;
+  }
+  
+  @media(min-width:768px) {
+    #services-dark {
+      height: 100%;
+    }
   }
 
   //Dark Timeline
 
-.timeline-dark {
+  .timeline-dark {
     position: relative;
     padding: 0;
     list-style: none;
@@ -184,7 +194,7 @@
       &:after {
         clear: both;
       }
-      .timeline-panel {
+      .timeline-panel-dark {
         position: relative;
         float: right;
         width: 100%;
@@ -214,7 +224,7 @@
         color: $primary;
         border: 7px solid $dp;
         border-radius: 100%;
-        background-color: $tertiarty-gray;
+        background-color: $tertiarty;
         h4 {
           font-size: 10px;
           line-height: 14px;
@@ -222,6 +232,7 @@
         }
       }
       &.timeline-inverted > .timeline-panel {
+        color:white;
         float: right;
         padding: 0 20px 0 100px;
         text-align: left;
@@ -242,7 +253,7 @@
         margin-bottom: 0;
       }
     }
-    .timeline-heading {
+    .timeline-heading-dark {
       h4 {
         margin-top: 0;
         color: inherit;
@@ -251,7 +262,8 @@
         }
       }
     }
-    .timeline-body {
+    .timeline-body-dark {
+      color:white;
        > ul,
       > p {
         margin-bottom: 0;
@@ -266,13 +278,13 @@
       > li {
         min-height: 100px;
         margin-bottom: 100px;
-        .timeline-panel {
+        .timeline-panel-dark {
           float: left;
           width: 41%;
           padding: 0 20px 20px 30px;
           text-align: right;
         }
-        .timeline-image {
+        .timeline-image-dark {
           left: 50%;
           width: 100px;
           height: 100px;
@@ -295,10 +307,10 @@
     .timeline-dark {
       > li {
         min-height: 150px;
-        .timeline-panel {
+        .timeline-panel-dark {
           padding: 0 20px 20px;
         }
-        .timeline-image {
+        .timeline-image-dark {
           width: 150px;
           height: 150px;
           margin-left: -75px;
@@ -318,10 +330,10 @@
     .timeline-dark {
       > li {
         min-height: 170px;
-        .timeline-panel {
+        .timeline-panel-dark {
           padding: 0 20px 20px 100px;
         }
-        .timeline-image {
+        .timeline-image-dark {
           width: 170px;
           height: 170px;
           margin-left: -85px;
@@ -340,63 +352,62 @@
 //Dark Footer
 
 .footer-dark {
-    padding: 25px 0;
-    text-align: center;
-    background-color: $primary-gray;
-    span.copyright {
-      font-size: 90%;
-      line-height: 40px;
-      text-transform: none;
-      @include heading-font;
-      color: $dp;
-    }
-    ul.quicklinks {
-      font-size: 90%;
-      line-height: 40px;
-      margin-bottom: 0;
-      text-transform: none;
-      @include heading-font;
-    }
+  padding: 25px 0;
+  text-align: center;
+  background-color: $primary-gray;
+  span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    @include heading-font;
+    color: $dp;
   }
-  
-  ul.social-buttons {
+  ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
     margin-bottom: 0;
-    li {
-      a {
-        font-size: 20px;
-        line-height: 50px;
-        display: block;
-        width: 50px;
-        height: 50px;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-        color: white;
-        border-radius: 100%;
-        outline: none;
-        background-color: $dp;
-        &:active,
-        &:focus,
-        &:hover {
-          background-color: darken($dp, 15%);
-        }
+    text-transform: none;
+    @include heading-font;
+  }
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      font-size: 20px;
+      line-height: 50px;
+      display: block;
+      width: 50px;
+      height: 50px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: white;
+      border-radius: 100%;
+      outline: none;
+      background-color: $dp;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: darken($dp, 15%);
       }
     }
   }
-
+}
   
 //Dark Other
 
-.page-section-dark {
-    padding: 6.25rem 0;
+  .page-section-dark {
+    //padding: 6.25rem 0;
     background-color: $secondary-gray;
-    h2.section-heading {
-      font-size: 2.2rem;
+    h2.section-heading-dark {
+      font-size: 1.8rem;
       margin-top: 0;
       margin-bottom: 1.5rem;
-      color: $dp;
+      color: $white;
     }
-    h3.section-subheading {
+    h3.section-subheading-dark {
       font-size: 0.8rem;
       font-weight: 300;
       font-style: italic;
@@ -406,3 +417,21 @@
       color: $dp
     }
   }
+  @media(min-width:768px) {
+    .page-section-dark {
+      height: auto !important;
+      h2.section-heading-dark {
+        font-size: 2.5rem;
+        margin: 4rem 0rem;
+      }
+    }
+  }
+
+  .text-muted-dark{
+    color: #fff !important;
+  }
+
+  h4
+{
+  color:white;
+}
