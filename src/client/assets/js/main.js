@@ -1,5 +1,10 @@
 // This is the entry file, where all npm modules are imported
+/*
+if (document.getElementbyID("darkSwitch").checked=true) {
 
+    import'./../scss/darkTheme.scss'
+}
+*/
 // import bootstrap javascript bundle (bootstrap.js, jQuary, popper.js)
 import 'bootstrap/dist/js/bootstrap.bundle'
 // Import precompiled Bootstrap css
