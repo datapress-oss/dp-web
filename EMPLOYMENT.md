@@ -20,7 +20,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          11. |                     120 | Új Dark Theme létrehozása, <br> egyéb vizuális változtatások                                     |
 |              |                         |                                     |
-|          12. |                         |                                     |
+|          12. |                     110 |  Dark Theme karbantartás                                   |
 
 ## István
 
