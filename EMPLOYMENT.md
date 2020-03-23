@@ -19,6 +19,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          10. |                     100 | Design ötletelés Balázzsal                        |
 |              |                         |                                     |
 |          11. |                     120 | Új Dark Theme létrehozása, <br> egyéb vizuális változtatások                                     |
+|              |                         |                                     |
+|          12. |                         |                                     |
 
 ## István
 
@@ -35,6 +37,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          10. |                         |                         |
 |              |                         |                                     |
 |          11. |                         |                                     |
+|              |                         |                                     |
+|          12. |                         |                                     |
 
 ## Krisztián
 
@@ -51,6 +55,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          10. |                     100 | dark theme switch tervezés/ utánanézése  |
 |              |                         |                                     |
 |          11. |                     210 | Test dark theme switch              |
+|              |                         |                                     |
+|          12. |                         |                                     |
 
 
 ## Balázs
@@ -68,3 +74,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          10. |                     900 | Projektvezetés, npm karbantartás <br> Design tervezés <br> Segítség Istvánnak(grid-ek) <br> Developer Tools-ban kísérletezés(főleg responsive tesztelések)   |
 |              |                         |                                     |
 |          11. |                     120 | Projektvezetés <br>Segítség Krisztiánnak és Istvánnak|
+|              |                         |                                     |
+|          12. |                     400 | NewDesign tervezése, fejlesztése (főleg saját SVG-el való munka)         |
