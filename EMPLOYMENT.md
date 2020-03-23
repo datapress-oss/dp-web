@@ -34,11 +34,11 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                         |
 |           9. |                   100   |     Portfolio szerkesztése linkek hozzáadása a weboldalhoz                    |
 |              |                         |                         |
-|          10. |                         |                         |
+|          10. |                 200     |      gridek implementálása  tartalom szerkeztése/hozzáadása   bugfixek                |
 |              |                         |                                     |
-|          11. |                         |                                     |
+|          11. |                 110     |      tartalom hozzáadása optimalizálás előkészítése                               |
 |              |                         |                                     |
-|          12. |                         |                                     |
+|          12. |                 100     |   dark theme switch implementálása svg képek beillesztése                         |
 
 ## Krisztián
 
