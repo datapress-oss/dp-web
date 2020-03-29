@@ -21,6 +21,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          11. |                     120 | Új Dark Theme létrehozása, <br> egyéb vizuális változtatások                                     |
 |              |                         |                                     |
 |          12. |                     110 |  Dark Theme karbantartás                                   |
+|              |                         |                                     |
+|          13. |                         |                                     |
 
 ## István
 
@@ -39,6 +41,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          11. |                 110     |      tartalom hozzáadása optimalizálás előkészítése                               |
 |              |                         |                                     |
 |          12. |                 100     |   dark theme switch implementálása svg képek beillesztése                         |
+|              |                         |                                     |
+|          13. |                         |                                     |
 
 ## Krisztián
 
@@ -57,6 +61,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          11. |                     210 | Test dark theme switch              |
 |              |                         |                                     |
 |          12. |                         |                                     |
+|              |                         |                                     |
+|          13. |                         |                                     |
 
 
 ## Balázs
@@ -76,3 +82,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          11. |                     120 | Projektvezetés <br>Segítség Krisztiánnak és Istvánnak|
 |              |                         |                                     |
 |          12. |                     400 | NewDesign tervezése, fejlesztése (főleg saját SVG-el való munka)         |
+|              |                         |                                     |
+|          13. |                     150 | DarkTheme-hez anyag keresés <br> debug package.json-ban        |
