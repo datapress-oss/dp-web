@@ -14,3 +14,5 @@ import './../scss/homepage.scss'
 // import FontAwesome icon-pack
 import '@fortawesome/fontawesome-free/css/all.css'
 
+import './switch'
+
