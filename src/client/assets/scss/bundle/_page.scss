@@ -34,17 +34,18 @@ h4{
 }
 
 .text-muted{
-  color: #131313 !important;
+  color: var(--text) !important;
 }
 
 
 .page-section {
   //padding: 6.25rem 0;
+  background-color: var(--bg);
   h2.section-heading {
     font-size: 1.8rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
-    color: $secondary-gray;
+    color: var(--h-text);
   }
   h3.section-subheading {
     font-size: 0.8rem;

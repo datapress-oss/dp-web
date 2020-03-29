@@ -2,12 +2,13 @@
 .footer {
   padding: 25px 0;
   text-align: center;
+  background-color: var(--bg);
   span.copyright {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
     @include heading-font;
-    color: $dp;
+    color: var(--dp-text);
   }
   ul.quicklinks {
     font-size: 90%;
@@ -33,7 +34,7 @@ ul.social-buttons {
       color: white;
       border-radius: 100%;
       outline: none;
-      background-color: $dp;
+      background-color: var(--dp-text);
       &:active,
       &:focus,
       &:hover {

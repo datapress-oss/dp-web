@@ -10,8 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //default light theme
 import './../scss/bundle.scss'
 import './../scss/homepage.scss'
-//import local DarkTheme.scss
-import './../scss/darkTheme.scss'
 
 // import FontAwesome icon-pack
 import '@fortawesome/fontawesome-free/css/all.css'
+

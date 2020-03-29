@@ -11,7 +11,8 @@
 
 header.masthead {
   text-align: center;
-  color: black;
+  color: var(--text);
+  background-color: var(--bg);
   //background-image: url('#');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,7 +41,7 @@ header.masthead {
     .intro-text {
       padding-top: 0px;
       padding-bottom: 0px;
-      background-color: rgba(255, 255, 255, 0);
+      background-color: transparent;
       .intro-lead-in {
         font-size: 2rem;
         font-style: italic;

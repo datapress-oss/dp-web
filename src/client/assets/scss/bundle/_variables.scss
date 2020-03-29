@@ -1,7 +1,6 @@
 // Variables
 
 // Restated Bootstrap Variables
-
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -21,3 +20,20 @@ $dp: #e53935 !default;
 $primary-gray: #212121;
 $secondary-gray: #424242;
 $tertiarty-gray: #757575;
+
+//Themes
+.light{
+    --bg: #f8f9fa; 
+    --text: black;
+    --dp-text: #e53935;
+    --h-text: #424242;
+    --service-bg: #f8f9fa;
+}
+
+.dark{
+    --bg: #212121; 
+    --text: white;
+    --dp-text: #e53935;
+    --h-text: #f8f9fa;
+    --service-bg: #868e96;
+}

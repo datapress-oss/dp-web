@@ -5,6 +5,8 @@
   padding: 1rem;
   border-style: solid;
   border-color: #EB5757;
+  color:black;
+  background-color: var(--service-bg);
 }
 
 #services {
@@ -15,4 +17,9 @@
   #services {
     height: 100%;
   }
+}
+
+.modal-content{
+background-color: var(--bg);
+color:var(--text);
 }

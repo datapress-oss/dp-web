@@ -11,7 +11,7 @@
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: $dp;
+    background-color: var(--dp-text);
   }
   > li {
     position: relative;
@@ -86,7 +86,7 @@
   .timeline-heading {
     h4 {
       margin-top: 0;
-      color: inherit;
+      color: var(--h-text);
       &.subheading {
         text-transform: none;
       }

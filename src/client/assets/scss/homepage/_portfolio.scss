@@ -78,9 +78,12 @@
   .modal-content {
     padding: 100px 0;
     text-align: center;
+    background-color: var(--bg);
+    color:var(--text);
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
+      color: var(--h-text);
     }
     p {
       margin-bottom: 30px;
@@ -123,7 +126,7 @@
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
-      background-color: $dp;
+      background-color: var(--dp-text);
       .rl {
         /* Safari and Chrome */
         z-index: 1052;
@@ -133,7 +136,7 @@
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        background-color: $dp;
+        background-color: (--dp-text);
       }
     }
   }
