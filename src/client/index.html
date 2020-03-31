@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
 
@@ -15,263 +15,267 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.0.0/css/bootstrap-switch-button.min.css" rel="stylesheet">  
-
+  
 </head>
 
-<body id="page-top" class="">
+<body id="page-top" class="h-100 light">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a  href="#page-top"><img src="./assets/img/logos/dp_logo_2012.svg" alt="logo" height="90px"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
+      
+      <button id="sideNav-openBtn" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span>&#9776; Menu</span>
       </button>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id="sideNav-closeBtn" class="closebtn">&times;</a>
+        <a href="#services">Szolgáltatások</a>
+        <a href="#portfolio">Portfólió</a>
+        <a href="#about">Cégismertető</a>
+        <a href="#contact">Kapcsolat</a>
+
+        <a href="#">
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="darkSwitchM" />
+          <label class="custom-control-label" for="darkSwitchM"></label>
+        </div>
+        </a>
+
+      </div>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
             <a class="nav-link " href="#services">Szolgáltatások</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#portfolio">Portfólio</a>
+            <a class="nav-link " href="#portfolio">Portfólió</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#about">Cégismertető</a>
           </li>
-          <!--
-          <li class="nav-item">
-            <a class="nav-link " href="#team">Team</a>
-          </li>
-          -->
           <li class="nav-item">
             <a class="nav-link " href="#contact">Kapcsolat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+              <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+            </div>
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      
+	<!-- Header -->
+
+		
+  <header class="masthead h-100">
+
+    <div class="container-fluid h-100">
+
+			<!-- Left side vector -->
+			<svg class="svg-left-header svg-h-100" viewBox="0 0 468 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M-10.6542 -15.4971L468 340.841L-10.6542 1130H-60L-10.5938 1048.56L-9.84604 41.091L-60 4.36705V-15.4971V-52L-10.6542 -15.4971Z" fill="#803232"/>
+				<path d="M418.654 354.526L-60 4.36705V1130L418.654 354.526Z" fill="#EB5757"/>
+			</svg>
+
+				<!-- Right side vector (only visible on desktop) -->
+				<svg class="svg-right-header svg-h-100" viewBox="0 0 514 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M465.963 1065.32L-0.000154699 726.768L465.963 -23L514 -23L465.904 54.3744L465.176 1011.56L514 1046.45L514 1065.32L514 1100L465.963 1065.32Z" fill="#803232"/>
+					<path d="M48.0372 713.766L514 1046.45L514 -23L48.0372 713.766Z" fill="#EB5757"/>
+				</svg>
+					
+
+      <div class="row h-100 justify-content-center align-items-center">
+				<div class="col-lg-12">
       <div class="intro-text">
         <div id="header-bg">
           <div class="intro-lead-in">Üdvözli önt a</div>
           <div class="intro-heading text-uppercase">DATA-PRESS KFT</div>
-          <a class="btn btn-primary btn-xl  text-uppercase" href="#services">TOVÁBB A WEBOLDALRA</a>
         </div>
-      </div>
-    </div>
+			</div>
+			</div>
+		</div>
+  </div>
   </header>
 
   <!-- Services -->
   <section class="page-section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Szolgáltatások</h2>
-          <h3 class="section-subheading text-muted"></h3>
+    <img class="img-fluid " src="./assets/img/top-svg.svg" alt="">
+    <div class="container h-100">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Szolgáltatásaink</h2>
+				</div>
+			</div>
+      <!--Row for the serviceBoxes-->
+      <div class="row justify-content-center align-items-center">
+        <!--box1-->
+        <div class="col-md serviceBox">
+          <div class="row">
+            <div class="col-md-12">
+              <a title="TeVe / Public domain" href="https://commons.wikimedia.org/wiki/File:BSicon_lDAMPF.svg"><img width="256" alt="BSicon lDAMPF" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BSicon_lDAMPF.svg/256px-BSicon_lDAMPF.svg.png"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <b>Menetjegyeladás és helybiztosítás</b>
+              Fő profilunk a vasúti menet- és helyjegyértékesítési rendszer számítógépes hátterének biztosítása a MÁV-START ZRt. részére a fejlesztéstől az üzemeltetésig.Gyártjuk, illetve
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12"><br/>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#menetjegyeEladModal">
+                Bővebben
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="menetjegyeEladModal" tabindex="-1" role="dialog" aria-labelledby="menetjegyeEladLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="menetjegyeEladLongTitle">Vasúti menetjegyeladási és helybiztosítási rendszer</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Fő profilunk a vasúti menet- és helyjegyértékesítési rendszer számítógépes hátterének biztosítása a MÁV-START ZRt. részére a fejlesztéstől az üzemeltetésig. Gyártjuk, illetve beszállítjuk a rendszer építőelemeit: jegykiadó pénztári berendezés, adatgyűjtő számítógépek, hálózati elemek. Folyamatosan végezzük a szükséges és igényelt szoftver-fejlesztéseket, ellátjuk a rendszer országos szintű szervizét, valamint tanácsadással segítjük a rendszer üzemeltetését, továbbfejlesztését.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--box2-->
+        <div class="col-md serviceBox">
+          <div class="row">
+            <div class="col-md-12">
+              <a title="TeVe / Public domain" href="https://commons.wikimedia.org/wiki/File:BSicon_lDAMPF.svg"><img width="256" alt="BSicon lDAMPF" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BSicon_lDAMPF.svg/256px-BSicon_lDAMPF.svg.png"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <b>Vasúti menetjegykiadó automata</b>
+              A MÁV Személyszállítási Szakigazgatósága fejlesztési megbízása alapján 2002-ben a DATA-PRESS és a Protokon Kft. kifejlesztette a DPPA-1 típusú vasúti menetjegykiadó automatát.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12"><br/>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#menetjegykiadModal">
+                Bővebben
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="menetjegykiadModal" tabindex="-1" role="dialog" aria-labelledby="menetjegykiadModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="menetjegykiadModalLongTitle">Vasúti menetjegykiadó automaták</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                                Vasúti menetjegykiadó automataA MÁV Személyszállítási Szakigazgatósága fejlesztési megbízása alapján 2002-ben a DATA-PRESS és a Protokon Kft. kifejlesztette a DPPA-1 típusú vasúti menetjegykiadó automatát. A berendezés hardver elemeit, ill. azok meghajtó szoftvereit a Protokon Kft., míg a működtető és a központi adatbázist karbantartó szoftvert, valamint az automatákat felügyelő rendszert a DATA-PRESS fejlesztette és szállította.
+
+
+                        Vasúti menetjegykiadó automataA berendezés alkalmas utas által történő kezeléssel vasúti, belföldi jegyeladásra kül- és beltéren egyaránt. A menetjegy a jegykiadó automatában elhelyezett szigorú elszámolású bizonylatként kezelt hőpapírra készül, melyre a változó adatokat az automata nyomtatja, az utas által kiválasztott igényeknek megfelelően. Képes többféle papír- és fémpénz címletet, ill. bankkártyát elfogadni. A visszajáró pénzt érmében adja vissza.
+
+                        A jegykiadó automata vandál- és betörésbiztos, robosztus felépítésű, szélsőséges időjárási körülményeknek ellenálló acéllemez házban kerül telepítésre. Jelenleg 12 automata üzemel négy budapesti pályaudvaron: Bp. Nyugatiban, Bp. Keletiben, Kelenföldön és Bp. Déliben.
+
+                        Vasúti menetjegykiadó automataA DPPA-1 az elővárosi közlekedés 120 km-es körzetében érintett állomásokra és megállóhelyre viszonylati menetjegy kiadására képes különböző kedvezmények, elővétel és kocsiosztály választásának lehetőségével, azonban mint modulárisan építhető és bővíthető rendszer, alkalmassá tehető a MÁV teljes hálózatára kiterjedő viszonylati menetjegy kiadására, helyjegy váltására, menetrendi információ szolgáltatására, az értékesítési adatok országos rendszerben történő feldolgozására, reklám megjelenítésére, és beprogramozható az EURO fizetőeszközök elfogadására.
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <!--box3-->
+        <div class="col-md serviceBox">
+          <div class="row">
+            <div class="col-md-12">
+              <a title="TeVe / Public domain" href="https://commons.wikimedia.org/wiki/File:BSicon_lDAMPF.svg"><img width="256" alt="BSicon lDAMPF" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BSicon_lDAMPF.svg/256px-BSicon_lDAMPF.svg.png"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+             <b>Mikroelektronikai fejlesztések</b>
+              Tevékenységi körünkbe tartozik mikrokontroller, illetve mikroprocesszor alapú áramkörök, berendezések tervezése, fejlesztése, gyártása egyedi igények szerint. Szükség szerint elkészítjük 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12"><br/>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mikroelektronikaModal">
+                Bővebben
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="mikroelektronikaModal" tabindex="-1" role="dialog" aria-labelledby="mikroelektronikaLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="mikroelektronikaLongTitle">Mikroelektronikai fejlesztések</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Tevékenységi körünkbe tartozik mikrokontroller, illetve mikroprocesszor alapú áramkörök, berendezések tervezése, fejlesztése, gyártása egyedi igények szerint. Szükség szerint elkészítjük a működtető firmware-eket, valamint az esetleges PC-oldali terminál- illetve kliens programokat is. Komplett megoldások elkészítését is vállaljuk.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <p>
-            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Menetjegyeladás és helybiztosítás</a>
-          </p>
-          <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body">
-                  Fő profilunk a vasúti menet- és helyjegyértékesítési rendszer számítógépes hátterének biztosítása a MÁV-START ZRt. részére a fejlesztéstől az üzemeltetésig. Gyártjuk, illetve beszállítjuk a rendszer építőelemeit: jegykiadó pénztári berendezés, adatgyűjtő számítógépek, hálózati elemek. Folyamatosan végezzük a szükséges és igényelt szoftver-fejlesztéseket, ellátjuk a rendszer országos szintű szervizét, valamint tanácsadással segítjük a rendszer üzemeltetését, továbbfejlesztését.
-                </div>
-              </div>
-            </div>
-          </div>
-          
-       
-        
-          
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          
-          
-          <p>
-            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Vasúti menetjegykiadó automata</a>
-           
-          </p>
-         <div class="row">
-           <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample2">
-               <div class="card card-body">
-                 DATA-PRESS és a Protokon Kft. kifejlesztette a DPPA-1 típusú vasúti menetjegykiadó automatát. A berendezés hardver elemeit, ill. azok meghajtó szoftvereit a Protokon Kft., míg a működtető és a központi adatbázist karbantartó szoftvert, valamint az automatákat felügyelő rendszert a DATA-PRESS fejlesztette és szállította.
-
-
-                
-                </div>
-              </div>
-            </div>
-        
-          <p class="text-muted">
-        </div>
     </div>
-
-    <div class="col-md-4">
-      <span class="fa-stack fa-4x">
-        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-      </span>
-      <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Mikroelektronikai fejlesztések</a>
-      </p>
-      <div class="row">
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample3">
-            <div class="card card-body">
-              Tevékenységi körünkbe tartozik mikrokontroller, illetve mikroprocesszor alapú áramkörök, berendezések tervezése, fejlesztése, gyártása egyedi igények szerint. Szükség szerint elkészítjük a működtető firmware-eket, valamint az esetleges PC-oldali terminál- illetve kliens programokat is. Komplett megoldások elkészítését is vállaljuk.
-            </div>
-          </div>
-        </div>
-        
-      
-      <p class="text-muted">  </p>
-    </div>
-  </div>
-  </div>
   </section>
 
   <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfólio</h2>
-          <h3 class="section-subheading text-muted"></h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            
-            <!--
-            <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="">
-         
-          </a>
-          <div class="portfolio-caption">
-            <h4>Borujjlenyomat</h4>
-            <p class="text-muted">Borujjlenyomat</p>
-          </div> -->
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Reserviris</h4>
-            <p class="text-muted">Reserviris</p>
-          </div>
-        </div>
-          </div>
-        </div>
-        <!--
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-          -->
-         <!-- 
-       <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Reserviris</h4>
-            <p class="text-muted">Reserviris</p>
-          </div>
-        </div>
-      -->  
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div> 
-            <!--
-            <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-         
-          <div class="portfolio-caption">
-            <h4>Reserviris</h4>
-            <p class="text-muted">Reserviris</p>
-          </div>
-        </div>
-      -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <!--
-            <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Hírek,aktualitások</h4>
-            <p class="text-muted">Hírek,aktualitások</p>
-          </div>
-        </div>
-      -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <!--
-            <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Partnereink,referenciáink</h4>
-            <p class="text-muted">Partnereink,referenciáink</p>-->
-          </div>
-        </div>
-      </div>
+  <section class="page-section h-100" id="portfolio">
+    <img class="img-fluid " src="./assets/img/top-svg.svg" alt="">
+    <div class="container h-100">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Portfólió</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center align-items-center">
+				<div class="col portfolio-item">
+					<a class="portfolio-link" data-toggle="modal" href="#reserviris-modal">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<i class="fas fa-plus"></i>
+								<h6>Megtekintés</h6>
+							</div>
+						</div>
+						<img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="">
+					</a>
+					<div class="portfolio-caption">
+						<h4>Reserviris</h4>
+						<p class="text-muted">Helyfoglalási szolgáltatás</p>
+					</div>
+				</div>
+			</div></div>
     </div>
   </section>
 
   <!-- About -->
   <section class="page-section" id="about">
+    <img class="img-fluid " src="./assets/img/top-svg.svg" alt="">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Cégismertető</h2>
-          <!--
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          -->
         </div>
       </div>
       <div class="row">
@@ -317,13 +321,6 @@
                 </div>
               </div>
             </li>
-             <!--
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-                  -->
               </div>
             </li>
           </ul>
@@ -331,128 +328,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Team -->
-  <!--
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>
-    </div>
-  </section>
--->
-  <!-- Clients -->
-  <!--
-  <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
--->
   <!-- Contact -->
   <section class="page-section" id="contact">
     <div class="container">
@@ -540,110 +415,8 @@
 
   <!-- Portfolio Modals -->
 
-  <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Borujjlenyomat</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Cégismertető</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Nehézmunkagépek írányítása</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Reserviris Modal -->
+  <div class="portfolio-modal modal fade" id="reserviris-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -695,87 +468,19 @@
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Projekt bezárása</button>
-
+									Projekt bezárása
+								</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Hírek aktualitások</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Partnereink referenciáink</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	</div>
+	
 
   <!-- This is the entry point, import npm modules in main.js -->
   <script src="./assets/js/main.js"></script>
 
 </body>
-
 </html>

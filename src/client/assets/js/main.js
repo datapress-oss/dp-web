@@ -6,8 +6,14 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 // import custome designs
+
+//default light theme
 import './../scss/bundle.scss'
 import './../scss/homepage.scss'
 
 // import FontAwesome icon-pack
 import '@fortawesome/fontawesome-free/css/all.css'
+
+import './switch'
+import './sideNav'
+

@@ -1,6 +1,5 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
   height: 10%;
   .navbar-toggler {
     font-size: 0.75rem;
@@ -29,11 +28,12 @@
         font-weight: bold;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: $dp;
+        color: white;
+        background-color: #424242;
         @include heading-font;
         &.active,
         &:hover {
-          color: darken($dp, 20%);
+          color: #EB5757;
 
         }
       }
@@ -42,13 +42,12 @@
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0rem;
+    //padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: rgba($black,0.45);
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -65,11 +64,55 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
       }
     }
   }
+}
+
+.custom-control {
+  min-height: auto;
+}
+
+//SIDENAV
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

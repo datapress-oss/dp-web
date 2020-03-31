@@ -7,7 +7,8 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "nodemailer": "^6.4.4"
+    "nodemailer": "^6.4.4",
+    "standard": "^14.3.3"
   },
   "config": {
     "commitizen": {

@@ -44,6 +44,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          13. |                         |                                     |
 
+
 ## Krisztián
 
 | Hét 2020-ban | Eltöltött idő (percben) | Tárgy                               |
