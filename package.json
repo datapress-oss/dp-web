@@ -7,8 +7,7 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "nodemailer": "^6.4.4",
-    "standard": "^14.3.3"
+    "nodemailer": "^6.4.4"
   },
   "config": {
     "commitizen": {
@@ -26,6 +25,7 @@
     "husky": "^3.1.0",
     "nodemon": "^2.0.2",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.2"
+    "sass": "^1.26.2",
+    "standard": "^14.3.3"
   }
 }
