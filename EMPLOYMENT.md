@@ -22,7 +22,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          12. |                     110 |  Dark Theme karbantartás                                   |
 |              |                         |                                     |
-|          13. |                         |                                     |
+|          13. |                     200 |  Dark Theme stabil megoldás létrhezosása/implementálása                                   |
 
 ## István
 
