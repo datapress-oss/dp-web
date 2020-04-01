@@ -13,6 +13,7 @@ header.masthead {
   text-align: center;
   color: var(--text);
   background-color: var(--bg);
+  transition: background-color 500ms ease-in-out, color 1000ms ease-in-out;
   //background-image: url('#');
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -41,6 +41,7 @@ h4{
 .page-section {
   //padding: 6.25rem 0;
   background-color: var(--bg);
+  transition: background-color 500ms ease-in-out, color 1000ms ease-in-out;
   h2.section-heading {
     font-size: 1.8rem;
     margin-top: 0;
