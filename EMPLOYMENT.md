@@ -23,6 +23,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          12. |                     110 |  Dark Theme karbantartás                                   |
 |              |                         |                                     |
 |          13. |                     200 |  Dark Theme stabil megoldás létrhezosása/implementálása                                   |
+|              |                         |                                     |
+|          14. |                         |                                     |
 
 ## István
 
@@ -43,6 +45,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          12. |                 100     |   dark theme switch implementálása svg képek beillesztése                         |
 |              |                         |                                     |
 |          13. |                         |                                     |
+|              |                         |                                     |
+|          14. |                         |                                     |
 
 
 ## Krisztián
@@ -64,6 +68,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          12. |                         |                                     |
 |              |                         |                                     |
 |          13. |                         |                                     |
+|              |                         |                                     |
+|          14. |                         |                                     |
 
 
 ## Balázs
@@ -85,3 +91,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          12. |                     400 | NewDesign tervezése, fejlesztése (főleg saját SVG-el való munka)         |
 |              |                         |                                     |
 |          13. |                     150 | DarkTheme-hez anyag keresés <br> debug package.json-ban        |
+|              |                         |                                     |
+|          14. |                     350 | NewDesign branch merge <br> npm package karbantartás <br> responsive fix-ek <br> mobil menu   |
