@@ -46,9 +46,9 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          12. |                 100     |   dark theme switch implementálása svg képek beillesztése                         |
 |              |                         |                                     |
-|          13. |                         |                                     |
+|          13. |                       0  |                                     |
 |              |                         |                                     |
-|          14. |                         |                                     |
+|          14. |                       0  |                                     |
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
 
