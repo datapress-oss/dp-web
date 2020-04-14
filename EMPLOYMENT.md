@@ -25,6 +25,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          13. |                     200 |  Dark Theme stabil megoldás létrhezosása/implementálása                                   |
 |              |                         |                                     |
 |          14. |                         |                                     |
+|              |                         |                                     |
+|          15. |                       0 |      Szünet/Húsvét |
 
 ## István
 
@@ -47,6 +49,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          13. |                         |                                     |
 |              |                         |                                     |
 |          14. |                         |                                     |
+|              |                         |                                     |
+|          15. |                       0 |      Szünet/Húsvét |
 
 
 ## Krisztián
@@ -70,6 +74,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          13. |                         |                                     |
 |              |                         |                                     |
 |          14. |                         |                                     |
+|              |                         |                                     |
+|          15. |                       0 |      Szünet/Húsvét |
 
 
 ## Balázs
@@ -93,3 +99,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          13. |                     150 | DarkTheme-hez anyag keresés <br> debug package.json-ban        |
 |              |                         |                                     |
 |          14. |                     350 | NewDesign branch merge <br> npm package karbantartás <br> responsive fix-ek <br> mobil menu   |
+|              |                         |                                     |
+|          15. |                       0 |      Szünet/Húsvét |
