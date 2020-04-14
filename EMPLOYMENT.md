@@ -69,11 +69,11 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          11. |                     210 | Test dark theme switch              |
 |              |                         |                                     |
-|          12. |                         |                                     |
+|          12. |                     60  | dark theme switchez valo bugok javitása |
 |              |                         |                                     |
-|          13. |                         |                                     |
+|          13. |                     210 | dark theme switch implementálása        |
 |              |                         |                                     |
-|          14. |                         |                                     |
+|          14. |                       0 |                                     |
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
 
