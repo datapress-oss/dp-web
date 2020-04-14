@@ -24,7 +24,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          13. |                     200 |  Dark Theme stabil megoldás létrhezosása/implementálása                                   |
 |              |                         |                                     |
-|          14. |                         |                                     |
+|          14. |                     100 |  Dark Theme tweak                                   |
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
 
