@@ -27,6 +27,10 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          14. |                     100 |  Dark Theme tweak                                   |
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
+|              |                         |                                                     |
+|          16. |                         |                                                     |
+|              |                         |                                                     |
+|          17. |                         |                                                     |
 
 ## István
 
@@ -76,6 +80,10 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          14. |                       0 |                                     |
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
+|              |                         |                                                     |
+|          16. |                         |                                                     |
+|              |                         |                                                     |
+|          17. |                         |                                                     |
 
 
 ## Balázs
@@ -101,3 +109,7 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          14. |                     350 | NewDesign branch merge <br> npm package karbantartás <br> responsive fix-ek <br> mobil menu   |
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
+|              |                         |                                     |
+|          16. |                      50 | npm karbantartás(github bot)                               |
+|              |                         |                                                     |
+|          17. |                      70 |      Meeting-re készülés, project áttekintése és összefoglalása |
