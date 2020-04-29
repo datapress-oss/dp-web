@@ -28,9 +28,9 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                     |
 |          15. |                       0 |      Szünet/Húsvét |
 |              |                         |                                                     |
-|          16. |                         |                                                     |
+|          16. |                       0 |      -                                               |
 |              |                         |                                                     |
-|          17. |                         |                                                     |
+|          17. |                       50|      Meetingre előkészület                                             |
 
 ## István
 
