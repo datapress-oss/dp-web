@@ -17,7 +17,8 @@
   "scripts": {
     "dev": "parcel src/client/index.html",
     "build": "parcel build src/client/index.html",
-    "devserver": "parcel build src/client/index.html && nodemon src/server/server.js"
+    "devserver": "parcel build src/client/index.html && nodemon src/server/server.js",
+    "publish": "set NODE_ENV=production && parcel build src/client/index.html && node src/server/server.js"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
