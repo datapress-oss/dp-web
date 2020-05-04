@@ -31,6 +31,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          16. |                       0 |      -                                               |
 |              |                         |                                                     |
 |          17. |                       50|      Meetingre előkészület                                             |
+|              |                         |                                                     |
+|          18. |                         |             |
 
 ## István
 
@@ -84,6 +86,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          16. |                         |                                                     |
 |              |                         |                                                     |
 |          17. |                         |                                                     |
+|              |                         |                                                     |
+|          18. |                         |             |
 
 
 ## Balázs
@@ -113,3 +117,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          16. |                      50 | npm karbantartás(github bot)                               |
 |              |                         |                                                     |
 |          17. |                      70 |      Meeting-re készülés, project áttekintése és összefoglalása |
+|              |                         |                                                     |
+|          18. |                     220 |   Project karbantartás <br> nodeJS production env <br> Email.js async <br> docs        |
