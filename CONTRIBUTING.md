@@ -34,8 +34,9 @@ Indító parancs: ```npm run dev```
 
 ## Build
 
+**FONTOS:** mielőtt elindítjuk a szervert, át kell írnunk az *Email.js*-ben az Email-hez kapcsolódó belépő adatokat, amik a *Credentials* object-ben találhatóak.
 Ahhoz, hogy a project publikálható módba legyen, amit különálló web server-en is lehet majd futtatni, le kell azt build-elnünk. A *Parcel* egy paranccsal minden ehhez szükséges folyamatot elvégez PL.: .scss és .js fordítása, minification. <br>
-Eddig az *src* mappában dolgoztunk, viszont a ```npm run build``` futtatásával egy teljesen kész verziót kapunk az ekkor létrehozott *dist* mappába, amit egy jól konfigurált szerveren már lehet is használni.
+Eddig az *src* mappában dolgoztunk, viszont a ```npm run publish``` futtatásával egy teljesen kész verziót kapunk az ekkor létrehozott *dist* mappába, amit az Express szerver, ami az 5000-es porton fut, ki szolgál statikus tartalomként.
 
 <a name="git"></a>
 
