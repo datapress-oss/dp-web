@@ -1,4 +1,17 @@
 const nodemailer = require('nodemailer')
+// EMAIL CREDENTIALS
+const Credentials = {
+  host: 'YOUR_SMTP_SERVER',
+  port: 587, // SMTP server port
+  secure: false, // true for 465, false for other ports
+  auth: {
+    user: 'YOUR_EMAIL_ADDRESS',
+    pass: 'YOUR_EMAIL_PASSWORD'
+  },
+  tls: {
+    rejectUnauthorized: false
+  }
+}
 
 class Email {
   constructor (name, email, phone, message) {
@@ -23,19 +36,7 @@ class Email {
     `
 
     // create reusable transporter object using the default SMTP transport
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.ethereal.email',
-      port: 587,
-      secure: false, // true for 465, false for other ports
-      auth: {
-        // you'll want to replace this with your own credentials!!!
-        user: 'ludwig0@ethereal.email', // generated ethereal user
-        pass: 'zg2cUbNuMpNXfA1P8K' // generated ethereal password
-      },
-      tls: {
-        rejectUnauthorized: false
-      }
-    })
+    const transporter = nodemailer.createTransport(Credentials)
 
     // setup email data with unicode symbols
     const mailOptions = {
@@ -52,13 +53,9 @@ class Email {
     }
 
     // send mail with defined transport object
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return console.log(error)
-      }
-      console.log('Message sent: %s', info.messageId)
-      console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info))
-    })
+    const info = await transporter.sendMail(mailOptions)
+    console.log(`Message sent: ${info.messageId}`)
+
     // end of SendMail() method
   }
 }
