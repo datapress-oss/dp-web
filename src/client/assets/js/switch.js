@@ -1,7 +1,8 @@
 const darkButton = document.getElementById('darkSwitch')
 const darkButtonM = document.getElementById('darkSwitchM')
 const body = document.body
-let darkMode = localStorage.getItem('darkMode'); 
+const localStorage = window.localStorage
+const darkMode = localStorage.getItem('darkMode')
 
 darkButton.onclick = () => {
   if (body.classList.contains('light')) {
@@ -10,7 +11,6 @@ darkButton.onclick = () => {
   } else {
     body.classList.replace('dark', 'light')
     localStorage.setItem('darkMode', null)
-
   }
 }
 
@@ -24,14 +24,9 @@ darkButtonM.onclick = () => {
   }
 }
 
-
-
 if (darkMode === 'enabled') {
   body.classList.replace('light', 'dark')
-  document.getElementById("darkSwitch").checked = true;
-
-}else
-{
+  document.getElementById('darkSwitch').checked = true
+} else {
   body.classList.replace('dark', 'light')
-  
 }
