@@ -1,3 +1,14 @@
+// better font-size for mobile devices
+#about .text-muted {
+  font-size: 0.862rem;
+}
+
+@media(min-width:410px), (min-height:569px) {
+  #about .text-muted {
+    font-size: 1rem;
+  }
+}
+
 // Styling for the timeline section
 .timeline {
   position: relative;
