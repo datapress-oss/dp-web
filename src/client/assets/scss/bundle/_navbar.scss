@@ -1,3 +1,14 @@
+// Hide the logo on mobile devices
+#logo {
+  display: none;
+}
+
+@media(min-width:768px) {
+  #logo {
+    display: block;
+  }
+}
+
 // Styling for the navbar
 #mainNav {
   height: 10%;
