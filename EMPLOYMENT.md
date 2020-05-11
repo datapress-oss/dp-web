@@ -33,6 +33,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          17. |                       50|      Meetingre előkészület                                             |
 |              |                         |                                                     |
 |          18. |                         |             |
+|              |                         |                                                     |
+|          19. |                         |                                                     |
 
 ## István
 
@@ -88,6 +90,8 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          17. |                         |                                                     |
 |              |                         |                                                     |
 |          18. |                         |             |
+|              |                         |                                                     |
+|          19. |                         |                                                     |
 
 
 ## Balázs
@@ -119,3 +123,5 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |          17. |                      70 |      Meeting-re készülés, project áttekintése és összefoglalása |
 |              |                         |                                                     |
 |          18. |                     220 |   Project karbantartás <br> nodeJS production env <br> Email.js async <br> docs        |
+|              |                         |                                                     |
+|          19. |                     280 |   Responsive fix-ek <br> Segítség Fecónak git/github-al        |
