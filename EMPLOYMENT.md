@@ -32,9 +32,9 @@ Célokat is megfogalmazhatunk, hogy aztán később láthatóvá váljon a halad
 |              |                         |                                                     |
 |          17. |                       50|      Meetingre előkészület                                             |
 |              |                         |                                                     |
-|          18. |                         |             |
+|          18. |                       0  |             |
 |              |                         |                                                     |
-|          19. |                         |                                                     |
+|          19. |                        0 |                                                     |
 
 ## István
 
